@@ -10,7 +10,7 @@ class ResizablePanels extends Component {
 
     this.state = {
       isDragging: false,
-      panels: [400, 400, 600],
+      panels: [400, 600, 400 ]
     };
   }
 

@@ -126,7 +126,6 @@ const Playground = () => {
       </div>
       <ResizablePanels>
         <ComponentForm />
-        <ReactForm />
         <div
           style={{
             display: "flex",
@@ -137,6 +136,7 @@ const Playground = () => {
           <span>Preview</span>
           {renderComponent(component)}
         </div>
+        <ReactForm />
       </ResizablePanels>
     </div>
   );
